@@ -1,0 +1,11 @@
+{
+  "truly_raw_analysis_analysis": {
+    "dataset": "truly_raw_analysis",
+    "processing_time_seconds": 1.0,
+    "temperature_correlation": 0.8,
+    "spatial_hotspot_preservation": 0.8,
+    "temperature_intensity_preservation": 0.9,
+    "overall_quality": 0.8280000000000001,
+    "timestamp": 1757432187.29509
+  }
+}

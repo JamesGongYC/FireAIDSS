@@ -1,0 +1,68 @@
+{
+  "standardization_params": {
+    "temperature": {
+      "mean": 358.9783020019531,
+      "std": 96.79217529296875
+    },
+    "wind": {
+      "mean": 0.3177175223827362,
+      "std": 0.7440665364265442
+    },
+    "total_samples": 120,
+    "total_temp_values": 1920000,
+    "total_wind_values": 5760000
+  },
+  "temporal_phases": {
+    "steady_state": [
+      8.0,
+      10.0
+    ],
+    "late_transient": [
+      5.0,
+      8.0
+    ],
+    "early_transient": [
+      1.0,
+      5.0
+    ],
+    "cold_start": [
+      0.0,
+      1.0
+    ],
+    "mixed_temporal": [
+      0.0,
+      10.0
+    ]
+  },
+  "target_timesteps": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0
+  ],
+  "metadata": {
+    "total_samples": 120,
+    "scenarios": 12,
+    "timesteps_per_scenario": 10,
+    "creation_time": 1757421938.1249905,
+    "purpose": "Session 3 Temporal Dynamics Training",
+    "temporal_distribution": {
+      "10.0": 12,
+      "1.0": 12,
+      "2.0": 12,
+      "3.0": 12,
+      "4.0": 12,
+      "5.0": 12,
+      "6.0": 12,
+      "7.0": 12,
+      "8.0": 12,
+      "9.0": 12
+    }
+  }
+}

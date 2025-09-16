@@ -1,0 +1,37 @@
+代码库导航：
+本代码库为FireAIDSS系统的开发代码库，分为AI训练代码(AI code)与系统部署代码(Non-AI code)。
+系统部署代码分为无人机控制层，无人机通讯层，数据中枢模块通讯层，电脑层，均已完整上传。
+AI训练代码库为轻量化版本，仅保留源代码和预处理后数据。
+代码库不包含的内容有：
+1）原始数据集
+2）历史训练结果
+这些内容可以在以下链接找到：
+通过网盘分享的文件：丘成桐中学科学奖上传材料库
+链接: https://pan.baidu.com/s/1WfIoeUpe-zWKnyxKdW3_aQ?pwd=6666 提取码: 6666 
+
+如果需要复现数据预处理过程，您需要：
+1. 下载材料库
+2. 找到数据集文件夹
+3. 将内容复制到data\truly_raw
+4. 运行data\preprocessors 下的两个python程序
+
+如果需要复现训练过程，您需要：
+1. 进入training_sessions\
+2. 按照Session_x_step_y 顺序依次运行训练程序(S1s1,S1s2,S1s3,S2s1, ... , S3s2)
+3. 在terminal监测训练表现
+4. 在Checkpoints中可以找到模型与预测可视化
+5. 运行Session_4 进行训练结果综合评估与可视化
+6. 运行Session_5 进行路径规划模拟实验
+
+如果需要加载预训练模型，您需要：
+1. 下载材料库
+2. 找到checkpoints文件夹
+3. 将内容复制到checkpoints\
+4. 接下来可直接运行 Session_4, Session_5等评测程序
+
+同时，本代码库也可以在Github上找到：
+https://github.com/JamesGongYC/FireAIDSS/
+
+注：百度网盘材料库中也有视频日志记录等其他补充材料！欢迎选择观看 :)
+上外附中 龚叶诚
+

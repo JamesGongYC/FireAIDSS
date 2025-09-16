@@ -1,0 +1,424 @@
+{
+  "analysis_timestamp": "2024-09-09T21:42:51.475185",
+  "analyzer_version": "1.0",
+  "analysis_mode": "temporal",
+  "datasets_analyzed": {
+    "truly_raw_analysis": {
+      "dataset_info": {
+        "name": "truly_raw_analysis",
+        "analysis_mode": "temporal",
+        "total_samples": 30,
+        "source": "truly_raw_direct"
+      },
+      "sample_statistics": {
+        "total_samples": 30,
+        "unique_scenarios": 3,
+        "scenario_list": [
+          "gxb0-1",
+          "gxb0-0",
+          "gxb0-2"
+        ],
+        "timestep_range": [
+          1.0,
+          10.0
+        ],
+        "unique_timesteps": 10,
+        "measurement_count_stats": {
+          "min": 40,
+          "max": 40,
+          "mean": 40.0,
+          "std": 0.0
+        }
+      },
+      "field_characteristics": {
+        "temperature": {
+          "range_stats": {
+            "mean": 682.4377324839013,
+            "std": 282.7728344838422,
+            "min": 282.08785108189073,
+            "max": 882.6442776272829
+          },
+          "field_mean_stats": {
+            "mean": 384.09022843341717,
+            "std": 40.3079408007191,
+            "min": 333.18343094276366,
+            "max": 473.8406300147777
+          },
+          "field_value_range": {
+            "global_min": 316.9335987537056,
+            "global_max": 1201.3770241784416
+          }
+        },
+        "wind": {
+          "range_stats": {
+            "mean": 2.7158429098268253,
+            "std": 0.36630118811993456,
+            "min": 1.1663095419023068,
+            "max": 3.0670155286681755
+          },
+          "field_mean_stats": {
+            "mean": 1.316998537077315,
+            "std": 0.7375887959031222,
+            "min": 0.17186961171111517,
+            "max": 1.8440491723820474
+          },
+          "field_value_range": {
+            "global_min": 0.0005116369643535704,
+            "global_max": 3.0689404729985093
+          }
+        }
+      },
+      "physics_consistency": {
+        "temperature_correlation": 0.8,
+        "spatial_hotspot_preservation": 0.8,
+        "temperature_intensity_preservation": 0.9,
+        "fire_source_count_original": 65220.933333333334,
+        "fire_source_count_regular": 6869.133333333333,
+        "overall_quality": 0.8200000000000002,
+        "individual_results": [
+          {
+            "scenario": "gxb0-0",
+            "timestep": 1.0,
+            "temperature_correlation": 0.9840103663971251,
+            "spatial_hotspot_preservation": 1.0,
+            "temperature_intensity_preservation": 1.0083369374333417,
+            "fire_source_count_original": 93181,
+            "fire_source_count_regular": 9890,
+            "overall_quality": 0.9840103663971251
+          },
+          {
+            "scenario": "gxb0-0",
+            "timestep": 2.0,
+            "temperature_correlation": 0.9781326335394676,
+            "spatial_hotspot_preservation": 0.9999661154784495,
+            "temperature_intensity_preservation": 1.013037546788749,
+            "fire_source_count_original": 29512,
+            "fire_source_count_regular": 3357,
+            "overall_quality": 0.9780994899831671
+          },
+          {
+            "scenario": "gxb0-0",
+            "timestep": 3.0,
+            "temperature_correlation": 0.977066308483346,
+            "spatial_hotspot_preservation": 1.0,
+            "temperature_intensity_preservation": 1.0186717607660425,
+            "fire_source_count_original": 18652,
+            "fire_source_count_regular": 1992,
+            "overall_quality": 0.977066308483346
+          },
+          {
+            "scenario": "gxb0-0",
+            "timestep": 4.0,
+            "temperature_correlation": 0.9770024714458366,
+            "spatial_hotspot_preservation": 0.9997309803077585,
+            "temperature_intensity_preservation": 1.023385803423066,
+            "fire_source_count_original": 18586,
+            "fire_source_count_regular": 1936,
+            "overall_quality": 0.9767396385416491
+          },
+          {
+            "scenario": "gxb0-0",
+            "timestep": 5.0,
+            "temperature_correlation": 0.9770420213221919,
+            "spatial_hotspot_preservation": 0.9998422049232064,
+            "temperature_intensity_preservation": 1.025047611380384,
+            "fire_source_count_original": 19012,
+            "fire_source_count_regular": 1934,
+            "overall_quality": 0.9768878489014068
+          },
+          {
+            "scenario": "gxb0-0",
+            "timestep": 6.0,
+            "temperature_correlation": 0.9770857705078189,
+            "spatial_hotspot_preservation": 0.9996886351842241,
+            "temperature_intensity_preservation": 1.025946263073035,
+            "fire_source_count_original": 19270,
+            "fire_source_count_regular": 1934,
+            "overall_quality": 0.9767815403768875
+          },
+          {
+            "scenario": "gxb0-0",
+            "timestep": 7.0,
+            "temperature_correlation": 0.9770639285465237,
+            "spatial_hotspot_preservation": 0.9994336028010916,
+            "temperature_intensity_preservation": 1.0251423015434573,
+            "fire_source_count_original": 19421,
+            "fire_source_count_regular": 1938,
+            "overall_quality": 0.9765105222742405
+          },
+          {
+            "scenario": "gxb0-0",
+            "timestep": 8.0,
+            "temperature_correlation": 0.9770869018691147,
+            "spatial_hotspot_preservation": 0.9994338360183231,
+            "temperature_intensity_preservation": 1.025340805089046,
+            "fire_source_count_original": 19429,
+            "fire_source_count_regular": 1939,
+            "overall_quality": 0.9765337104583082
+          },
+          {
+            "scenario": "gxb0-0",
+            "timestep": 9.0,
+            "temperature_correlation": 0.977094252371963,
+            "spatial_hotspot_preservation": 0.9991747046990251,
+            "temperature_intensity_preservation": 1.0253960829124047,
+            "fire_source_count_original": 19387,
+            "fire_source_count_regular": 1930,
+            "overall_quality": 0.9762878610768709
+          },
+          {
+            "scenario": "gxb0-0",
+            "timestep": 10.0,
+            "temperature_correlation": 0.977106848691778,
+            "spatial_hotspot_preservation": 0.9996390077871178,
+            "temperature_intensity_preservation": 1.0248144540348776,
+            "fire_source_count_original": 19391,
+            "fire_source_count_regular": 1939,
+            "overall_quality": 0.9767541207282464
+          },
+          {
+            "scenario": "gxb0-1",
+            "timestep": 1.0,
+            "temperature_correlation": 0.9928303330128931,
+            "spatial_hotspot_preservation": 1.0,
+            "temperature_intensity_preservation": 1.0613221395656047,
+            "fire_source_count_original": 125534,
+            "fire_source_count_regular": 13387,
+            "overall_quality": 0.9928303330128931
+          },
+          {
+            "scenario": "gxb0-1",
+            "timestep": 2.0,
+            "temperature_correlation": 0.9945028520410883,
+            "spatial_hotspot_preservation": 0.9999592956519615,
+            "temperature_intensity_preservation": 1.0749232923398473,
+            "fire_source_count_original": 122837,
+            "fire_source_count_regular": 13064,
+            "overall_quality": 0.9944623714508736
+          },
+          {
+            "scenario": "gxb0-1",
+            "timestep": 3.0,
+            "temperature_correlation": 0.9933432888672598,
+            "spatial_hotspot_preservation": 1.0,
+            "temperature_intensity_preservation": 1.085732074381524,
+            "fire_source_count_original": 120835,
+            "fire_source_count_regular": 12832,
+            "overall_quality": 0.9933432888672598
+          },
+          {
+            "scenario": "gxb0-1",
+            "timestep": 4.0,
+            "temperature_correlation": 0.9923155818216637,
+            "spatial_hotspot_preservation": 1.0,
+            "temperature_intensity_preservation": 1.0913366245253258,
+            "fire_source_count_original": 117167,
+            "fire_source_count_regular": 12372,
+            "overall_quality": 0.9923155818216637
+          },
+          {
+            "scenario": "gxb0-1",
+            "timestep": 5.0,
+            "temperature_correlation": 0.9918757591977153,
+            "spatial_hotspot_preservation": 1.0,
+            "temperature_intensity_preservation": 1.0955005680187728,
+            "fire_source_count_original": 114415,
+            "fire_source_count_regular": 12035,
+            "overall_quality": 0.9918757591977153
+          },
+          {
+            "scenario": "gxb0-1",
+            "timestep": 6.0,
+            "temperature_correlation": 0.9917277755117513,
+            "spatial_hotspot_preservation": 1.0,
+            "temperature_intensity_preservation": 1.0979255558016412,
+            "fire_source_count_original": 112896,
+            "fire_source_count_regular": 11845,
+            "overall_quality": 0.9917277755117513
+          },
+          {
+            "scenario": "gxb0-1",
+            "timestep": 7.0,
+            "temperature_correlation": 0.9916688462790142,
+            "spatial_hotspot_preservation": 1.0,
+            "temperature_intensity_preservation": 1.0990918501605826,
+            "fire_source_count_original": 112200,
+            "fire_source_count_regular": 11750,
+            "overall_quality": 0.9916688462790142
+          },
+          {
+            "scenario": "gxb0-1",
+            "timestep": 8.0,
+            "temperature_correlation": 0.99165880041905,
+            "spatial_hotspot_preservation": 0.999991070551572,
+            "temperature_intensity_preservation": 1.0994341177693818,
+            "fire_source_count_original": 111989,
+            "fire_source_count_regular": 11727,
+            "overall_quality": 0.9916499454529335
+          },
+          {
+            "scenario": "gxb0-1",
+            "timestep": 9.0,
+            "temperature_correlation": 0.9916551515532164,
+            "spatial_hotspot_preservation": 0.9999821299332553,
+            "temperature_intensity_preservation": 1.0996565069630169,
+            "fire_source_count_original": 111919,
+            "fire_source_count_regular": 11713,
+            "overall_quality": 0.9916374306094704
+          },
+          {
+            "scenario": "gxb0-1",
+            "timestep": 10.0,
+            "temperature_correlation": 0.9916690802628548,
+            "spatial_hotspot_preservation": 0.9999821490730906,
+            "temperature_intensity_preservation": 1.0996666616405848,
+            "fire_source_count_original": 112039,
+            "fire_source_count_regular": 11724,
+            "overall_quality": 0.9916513780505847
+          },
+          {
+            "scenario": "gxb0-2",
+            "timestep": 1.0,
+            "temperature_correlation": 0.9866465322556919,
+            "spatial_hotspot_preservation": 0.9999797523715035,
+            "temperature_intensity_preservation": 1.0846136150075187,
+            "fire_source_count_original": 98777,
+            "fire_source_count_regular": 10546,
+            "overall_quality": 0.9866265550032494
+          },
+          {
+            "scenario": "gxb0-2",
+            "timestep": 2.0,
+            "temperature_correlation": 0.9863318538500545,
+            "spatial_hotspot_preservation": 0.9999836745355405,
+            "temperature_intensity_preservation": 1.1343767332867465,
+            "fire_source_count_original": 61254,
+            "fire_source_count_regular": 6690,
+            "overall_quality": 0.9863157515244292
+          },
+          {
+            "scenario": "gxb0-2",
+            "timestep": 3.0,
+            "temperature_correlation": 0.9862745519590369,
+            "spatial_hotspot_preservation": 1.0,
+            "temperature_intensity_preservation": 1.185856234746847,
+            "fire_source_count_original": 44175,
+            "fire_source_count_regular": 4601,
+            "overall_quality": 0.9862745519590369
+          },
+          {
+            "scenario": "gxb0-2",
+            "timestep": 4.0,
+            "temperature_correlation": 0.9861954901723693,
+            "spatial_hotspot_preservation": 1.0,
+            "temperature_intensity_preservation": 1.1804291539013871,
+            "fire_source_count_original": 45857,
+            "fire_source_count_regular": 4815,
+            "overall_quality": 0.9861954901723693
+          },
+          {
+            "scenario": "gxb0-2",
+            "timestep": 5.0,
+            "temperature_correlation": 0.9861320798782347,
+            "spatial_hotspot_preservation": 1.0,
+            "temperature_intensity_preservation": 1.1811802790780344,
+            "fire_source_count_original": 45701,
+            "fire_source_count_regular": 4804,
+            "overall_quality": 0.9861320798782347
+          },
+          {
+            "scenario": "gxb0-2",
+            "timestep": 6.0,
+            "temperature_correlation": 0.986094626773161,
+            "spatial_hotspot_preservation": 1.0,
+            "temperature_intensity_preservation": 1.1822882719986219,
+            "fire_source_count_original": 45305,
+            "fire_source_count_regular": 4750,
+            "overall_quality": 0.986094626773161
+          },
+          {
+            "scenario": "gxb0-2",
+            "timestep": 7.0,
+            "temperature_correlation": 0.9860502341786169,
+            "spatial_hotspot_preservation": 0.9999554009455,
+            "temperature_intensity_preservation": 1.184366789457679,
+            "fire_source_count_original": 44844,
+            "fire_source_count_regular": 4688,
+            "overall_quality": 0.986006257270483
+          },
+          {
+            "scenario": "gxb0-2",
+            "timestep": 8.0,
+            "temperature_correlation": 0.9860524507064492,
+            "spatial_hotspot_preservation": 1.0,
+            "temperature_intensity_preservation": 1.1853001107047674,
+            "fire_source_count_original": 44613,
+            "fire_source_count_regular": 4675,
+            "overall_quality": 0.9860524507064492
+          },
+          {
+            "scenario": "gxb0-2",
+            "timestep": 9.0,
+            "temperature_correlation": 0.9860120526722617,
+            "spatial_hotspot_preservation": 1.0,
+            "temperature_intensity_preservation": 1.1863325544732022,
+            "fire_source_count_original": 44341,
+            "fire_source_count_regular": 4640,
+            "overall_quality": 0.9860120526722617
+          },
+          {
+            "scenario": "gxb0-2",
+            "timestep": 10.0,
+            "temperature_correlation": 0.985976835782214,
+            "spatial_hotspot_preservation": 1.0,
+            "temperature_intensity_preservation": 1.1878333382969266,
+            "fire_source_count_original": 44089,
+            "fire_source_count_regular": 4627,
+            "overall_quality": 0.985976835782214
+          }
+        ],
+        "fire_source_count_analysis": {
+          "samples_analyzed": 30,
+          "avg_hotspot_ratio": 0.0,
+          "quality_assessment": "fair"
+        }
+      },
+      "measurement_distribution": {
+        "sparsity_distribution": {
+          "min_measurements": 0,
+          "max_measurements": 0,
+          "mean_measurements": 0,
+          "std_measurements": 0
+        },
+        "spatial_coverage": {
+          "mean_coverage": 0.5,
+          "coverage_quality": "unknown"
+        },
+        "samples_with_measurements": 0
+      },
+      "data_completeness": {
+        "total_samples": 30,
+        "complete_samples": 30,
+        "incomplete_samples": 0,
+        "missing_fields": [],
+        "completeness_ratio": 1.0
+      },
+      "quality_score": 0.8280000000000001
+    }
+  },
+  "summary_statistics": {
+    "total_datasets_analyzed": 1,
+    "successful_analyses": 1,
+    "failed_analyses": 0,
+    "average_quality_scores": {
+      "mean": 0.8280000000000001,
+      "std": 0.0,
+      "min": 0.8280000000000001,
+      "max": 0.8280000000000001
+    },
+    "recommendations": [
+      "Good data quality - minor improvements possible"
+    ]
+  },
+  "quality_scores": {}
+}
