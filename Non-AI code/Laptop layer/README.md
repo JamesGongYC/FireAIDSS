@@ -11,4 +11,4 @@
 
 ## MATLAB Application
 
-- **App.mlapp** - Open this file under the MATLAB App Designer app to see the interface. However, the environment does not allow it to connect to Vicon, which means it's probably wrong.
+- **App.mlapp** - Open this file under the MATLAB App Designer app to see the interface. However, within the current folder, it can't successfully access the Vicon camera and/or the fireaidss library, which should be in AI Code\.
