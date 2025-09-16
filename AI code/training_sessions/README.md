@@ -1,40 +1,43 @@
-# Training Sessions - 3-Stage Progressive Training Pipeline
+# Training Sessions Directory
 
-## Directory Contents
+## Contents
 
-**3-Stage Progressive Training:**
-1. **Session 1**: Foundation training on steady-state fields
-2. **Session 2**: Sparsity adaptation with curriculum learning  
-3. **Session 3**: Temporal dynamics across all fire phases
+- **Session_1_Step_1_Data_Generation.py** - Foundation training data generation
+- **Session_1_Step_2_Training.py** - Foundation model training
+- **Session_1_Step_3_Evaluation.py** - Foundation model evaluation
+- **Session_2_Step_1_Sparsity_Adaptation.py** - Sparsity adaptation training
+- **Session_2_Step_2_Evaluation.py** - Sparsity performance evaluation
+- **Session_3_Step_1_Temporal_Dynamics.py** - Temporal dynamics training
+- **Session_3_Step_2_Evaluation.py** - Temporal performance evaluation
+- **Session_4_Quick_Analysis.py** - Comprehensive analysis and visualization
+- **Session_5_PathPlanning_Testing.py** - Path planning performance testing
+- **visualize_s1s2_loss.py** - Session 1-2 loss visualization
+- **visualize_s2s1_loss.py** - Session 2-1 loss visualization
+- **visualize_s3s1_loss.py** - Session 3-1 loss visualization
 
-## Training Scripts
+## Runnable Scripts
 
-- **Session_1_Step_1_Data_Generation.py**: Generate training data (30 min)
-- **Session_1_Step_2_Training.py**: Train foundation model (4-6 hours)
-- **Session_1_Step_3_Evaluation.py**: Evaluate foundation model (1 hour)
-- **Session_2_Step_1_Sparsity_Adaptation.py**: Adapt to sparse data (6-8 hours)
-- **Session_2_Step_2_Evaluation.py**: Evaluate sparsity performance (2 hours)
-- **Session_3_Step_1_Temporal_Dynamics.py**: Learn temporal behavior (8-10 hours)
-- **Session_3_Step_2_Evaluation.py**: Evaluate temporal performance (2 hours)
-- **Session_4_Quick_Analysis.py**: Quick analysis from saved results (10 min)
-- **Session_5_PathPlanning_Testing.py**: Test path planning (30 min)
-- **visualize_*.py**: Loss curve visualization scripts
-
-## What to Run
-
-```bash
-# Complete pipeline (24-30 hours total)
-python Session_1_Step_1_Data_Generation.py      # 30 min
-python Session_1_Step_2_Training.py             # 4-6 hours  
-python Session_1_Step_3_Evaluation.py           # 1 hour
-python Session_2_Step_1_Sparsity_Adaptation.py  # 6-8 hours
-python Session_2_Step_2_Evaluation.py           # 2 hours
-python Session_3_Step_1_Temporal_Dynamics.py    # 8-10 hours
-python Session_3_Step_2_Evaluation.py           # 2 hours
-```
-
-## What to Expect
-
-- **Session 1**: 2.0K MAE on temperature reconstruction
-- **Session 2**: Models for 3-20 measurements (extreme sparsity)
-- **Session 3**: Temporal models for all fire phases (0-10s)
+- **Session_1_Step_1_Data_Generation.py** - Generates training data (30 min runtime)
+  - Output: Training samples created, progress shown in terminal
+- **Session_1_Step_2_Training.py** - Trains foundation model (4-6 hours)
+  - Output: Model checkpoints saved to `../checkpoints/`, training logs in terminal
+- **Session_1_Step_3_Evaluation.py** - Evaluates foundation model (1 hour)
+  - Output: Evaluation metrics displayed in terminal, results in checkpoint directory
+- **Session_2_Step_1_Sparsity_Adaptation.py** - Adapts model to sparse data (6-8 hours)
+  - Output: Adapted model checkpoints, training progress logged to terminal
+- **Session_2_Step_2_Evaluation.py** - Evaluates sparsity performance (2 hours)
+  - Output: Performance metrics and visualization plots
+- **Session_3_Step_1_Temporal_Dynamics.py** - Learns temporal behavior (8-10 hours)
+  - Output: Temporal model checkpoints, detailed training logs in terminal
+- **Session_3_Step_2_Evaluation.py** - Evaluates temporal performance (2 hours)
+  - Output: Temporal evaluation results and metrics
+- **Session_4_Quick_Analysis.py** - Quick analysis from saved results (10 min)
+  - Output: Comprehensive analysis results and visualizations
+- **Session_5_PathPlanning_Testing.py** - Tests path planning performance (30 min)
+  - Output: Results saved to `../evaluation/session_5_results/` with academic metrics, plots, and summary
+- **visualize_s1s2_loss.py** - Visualizes Session 1-2 loss curves
+  - Output: Loss curve plots and training progress visualizations
+- **visualize_s2s1_loss.py** - Visualizes Session 2-1 loss curves  
+  - Output: Comparative loss visualizations
+- **visualize_s3s1_loss.py** - Visualizes Session 3-1 loss curves
+  - Output: Temporal training loss plots

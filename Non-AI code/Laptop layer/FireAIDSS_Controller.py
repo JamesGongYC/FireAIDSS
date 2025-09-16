@@ -24,7 +24,13 @@ import math
 from typing import Dict, List, Tuple, Optional, Union
 from dataclasses import dataclass
 from enum import Enum
-
+# Import position tracking
+try:
+    from Socket1 import UDPReceiver
+    POSITION_TRACKING_AVAILABLE = True
+except ImportError:
+    print("Warning: Position tracking (Socket1) not available")
+    POSITION_TRACKING_AVAILABLE = False
 # Add fireaidss module to path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 
@@ -36,14 +42,6 @@ try:
 except ImportError as e:
     print(f"Warning: Could not import FireAIDSS modules: {e}")
     FIREAIDSS_AVAILABLE = False
-
-# Import position tracking
-try:
-    from Socket1 import UDPReceiver
-    POSITION_TRACKING_AVAILABLE = True
-except ImportError:
-    print("Warning: Position tracking (Socket1) not available")
-    POSITION_TRACKING_AVAILABLE = False
 
 @dataclass
 class DroneState:
